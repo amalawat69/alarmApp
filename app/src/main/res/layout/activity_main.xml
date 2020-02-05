@@ -10,13 +10,14 @@
     <TimePicker
         android:id="@+id/timepk"
         android:layout_width="300dp"
-        android:layout_height="400dp"
+        android:layout_height="300dp"
+        android:timePickerMode="spinner"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.19" />
+        app:layout_constraintVertical_bias="0.084" />
 
     <TextView
         android:id="@+id/timetv"
@@ -24,9 +25,10 @@
         android:layout_height="30dp"
         app:layout_constraintBottom_toTopOf="@+id/btnAlarm"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.317"
+        app:layout_constraintHorizontal_bias="0.26"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/timepk" />
+        app:layout_constraintTop_toBottomOf="@+id/timepk"
+        app:layout_constraintVertical_bias="0.418" />
 
     <Button
         android:id="@+id/btnAlarm"
